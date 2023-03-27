@@ -1,5 +1,5 @@
 #### 1.4.1 (2021-10-03)
-
+editing array
 ##### Other Changes
 
 * //github.com/sahilsaha7773/react-carousel-minimal ([a6285b08](https://github.com/sahilsaha7773/react-carousel-minimal/commit/a6285b085bf6358fdc492a036b647424a68a98ff))

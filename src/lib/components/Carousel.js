@@ -163,8 +163,7 @@ function Carousel({
                     </div>
                   )}
                   <img
-                    src={item.image}
-                    alt={item.caption}
+                    src={item}
                     className="carousel-image"
                     style={{
                       borderRadius: radius,
@@ -182,13 +181,13 @@ function Carousel({
                       II
                     </div>
                   )}
-                  <div
+                  {/* <div
                     className={`carousel-caption-${
                       captionPosition ? captionPosition : "bottom"
                     }`}
                     style={captionStyle}
                     dangerouslySetInnerHTML={{ __html: item.caption }}
-                  ></div>
+                  ></div> */}
                 </div>
               );
             })}
@@ -244,8 +243,7 @@ function Carousel({
             return (
               <img
                 width={thumbnailWidth ? thumbnailWidth : "100px"}
-                src={item.image}
-                alt={item.caption}
+                src={item}
                 className="thumbnail"
                 id={`thumbnail-${index}`}
                 key={index}
