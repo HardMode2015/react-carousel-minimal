@@ -2,6 +2,16 @@ import "./App.css";
 import { Carousel } from "./lib";
 
 function App() {
+
+  const images = [
+    "https://realstate.test/storage/properties/test2/3475035-e6787o.webp",
+    "https://realstate.test/storage/properties/test2/3475035-c122fo.webp",
+    "https://realstate.test/storage/properties/test2/3475035-e22d1o.webp",
+    "https://realstate.test/storage/properties/test2/3475035-5896bo.webp",
+    "https://realstate.test/storage/properties/test2/3475035-52ae2o.webp",
+    "https://realstate.test/storage/properties/test2/3475035-38e75o.webp"
+]
+
   const data = [
     {
       image:
@@ -63,7 +73,7 @@ function App() {
           }}
         >
           <Carousel
-            data={data}
+            data={images}
             time={2000}
             width="850px"
             height="500px"

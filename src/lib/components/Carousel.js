@@ -23,6 +23,7 @@ function Carousel({
   thumbnailWidth,
   showNavBtn = true,
 }) {
+
   //Initialize States
   const [slide, setSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
