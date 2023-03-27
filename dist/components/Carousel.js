@@ -171,8 +171,7 @@ function Carousel(_ref) {
       className: "slide-number",
       style: slideNumberStyle
     }, index + 1, " / ", data.length), /*#__PURE__*/_react.default.createElement("img", {
-      src: item.image,
-      alt: item.caption,
+      src: item,
       className: "carousel-image",
       style: {
         borderRadius: radius,
@@ -184,13 +183,7 @@ function Carousel(_ref) {
         color: pauseIconColor ? pauseIconColor : "white",
         fontSize: pauseIconSize ? pauseIconSize : "40px"
       }
-    }, "II"), /*#__PURE__*/_react.default.createElement("div", {
-      className: "carousel-caption-".concat(captionPosition ? captionPosition : "bottom"),
-      style: captionStyle,
-      dangerouslySetInnerHTML: {
-        __html: item.caption
-      }
-    }));
+    }, "II"));
   }), showNavBtn && /*#__PURE__*/_react.default.createElement("a", {
     className: "prev",
     onClick: e => {
@@ -223,8 +216,7 @@ function Carousel(_ref) {
   }, data.map((item, index) => {
     return /*#__PURE__*/_react.default.createElement("img", {
       width: thumbnailWidth ? thumbnailWidth : "100px",
-      src: item.image,
-      alt: item.caption,
+      src: item,
       className: "thumbnail",
       id: "thumbnail-".concat(index),
       key: index,
