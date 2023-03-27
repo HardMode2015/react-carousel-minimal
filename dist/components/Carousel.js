@@ -170,7 +170,7 @@ function Carousel(_ref) {
     }, slideNumber && /*#__PURE__*/_react.default.createElement("div", {
       className: "slide-number",
       style: slideNumberStyle
-    }, index + 1, " / ", data.length), /*#__PURE__*/_react.default.createElement("img", {
+    }, data.length, " / ", index + 1), /*#__PURE__*/_react.default.createElement("img", {
       src: item,
       className: "carousel-image",
       style: {
