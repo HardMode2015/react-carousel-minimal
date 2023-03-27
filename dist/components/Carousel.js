@@ -124,8 +124,8 @@ function Carousel(_ref) {
     className: "box"
   }, /*#__PURE__*/_react.default.createElement("div", {
     style: {
-      maxWidth: width ? width : "100vw",
-      maxHeight: height ? height : "40vh"
+      maxWidth: width ? width : "600px",
+      maxHeight: height ? height : "400px"
     }
   }, /*#__PURE__*/_react.default.createElement(_reactEasySwipe.default, {
     onSwipeRight: () => {
