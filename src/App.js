@@ -69,7 +69,7 @@ function App() {
         </p>
         <div
           style={{
-            padding: "0 20px",
+            // padding: "0 20px",
           }}
         >
           <Carousel
