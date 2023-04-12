@@ -136,7 +136,7 @@ function Carousel({
             {data.map((item, index) => {
               return (
                 <div
-                  className="carousel-item fade"
+                  className="carousel-item"
                   style={{
                     maxWidth: width ? width : "600px",
                     maxHeight: height ? height : "400px",

@@ -146,7 +146,7 @@ function Carousel(_ref) {
     }
   }, data.map((item, index) => {
     return /*#__PURE__*/_react.default.createElement("div", {
-      className: "carousel-item fade",
+      className: "carousel-item",
       style: {
         maxWidth: width ? width : "600px",
         maxHeight: height ? height : "400px"
